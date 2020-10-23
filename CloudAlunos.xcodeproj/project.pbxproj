@@ -1,0 +1,646 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4E86CE925406F1B004F542D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E86CE825406F1B004F542D /* AppDelegate.swift */; };
+		A4E86CEB25406F1B004F542D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E86CEA25406F1B004F542D /* SceneDelegate.swift */; };
+		A4E86CED25406F1B004F542D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E86CEC25406F1B004F542D /* ViewController.swift */; };
+		A4E86CF025406F1B004F542D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4E86CEE25406F1B004F542D /* Main.storyboard */; };
+		A4E86CF225406F1C004F542D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4E86CF125406F1C004F542D /* Assets.xcassets */; };
+		A4E86CF525406F1C004F542D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4E86CF325406F1C004F542D /* LaunchScreen.storyboard */; };
+		A4E86D0025406F1C004F542D /* CloudAlunosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E86CFF25406F1C004F542D /* CloudAlunosTests.swift */; };
+		A4E86D0B25406F1C004F542D /* CloudAlunosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E86D0A25406F1C004F542D /* CloudAlunosUITests.swift */; };
+		A4E86D1E25406F31004F542D /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4E86D1D25406F31004F542D /* CloudKit.framework */; };
+		A4E86D2125406F4E004F542D /* Aluno.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E86D2025406F4E004F542D /* Aluno.swift */; };
+		A4E86D2925406F64004F542D /* modelCloudKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E86D2825406F64004F542D /* modelCloudKit.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A4E86CFC25406F1C004F542D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4E86CDD25406F1B004F542D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4E86CE425406F1B004F542D;
+			remoteInfo = CloudAlunos;
+		};
+		A4E86D0725406F1C004F542D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4E86CDD25406F1B004F542D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4E86CE425406F1B004F542D;
+			remoteInfo = CloudAlunos;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A4E86CE525406F1B004F542D /* CloudAlunos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloudAlunos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4E86CE825406F1B004F542D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A4E86CEA25406F1B004F542D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A4E86CEC25406F1B004F542D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A4E86CEF25406F1B004F542D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A4E86CF125406F1C004F542D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A4E86CF425406F1C004F542D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A4E86CF625406F1C004F542D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4E86CFB25406F1C004F542D /* CloudAlunosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloudAlunosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4E86CFF25406F1C004F542D /* CloudAlunosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudAlunosTests.swift; sourceTree = "<group>"; };
+		A4E86D0125406F1C004F542D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4E86D0625406F1C004F542D /* CloudAlunosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloudAlunosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4E86D0A25406F1C004F542D /* CloudAlunosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudAlunosUITests.swift; sourceTree = "<group>"; };
+		A4E86D0C25406F1C004F542D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4E86D1B25406F2B004F542D /* CloudAlunos.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CloudAlunos.entitlements; sourceTree = "<group>"; };
+		A4E86D1D25406F31004F542D /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		A4E86D2025406F4E004F542D /* Aluno.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aluno.swift; sourceTree = "<group>"; };
+		A4E86D2825406F64004F542D /* modelCloudKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = modelCloudKit.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4E86CE225406F1B004F542D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4E86D1E25406F31004F542D /* CloudKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4E86CF825406F1C004F542D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4E86D0325406F1C004F542D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4E86CDC25406F1B004F542D = {
+			isa = PBXGroup;
+			children = (
+				A4E86D3C25407FB6004F542D /* View */,
+				A4E86D3025407E10004F542D /* Controller */,
+				A4E86D1F25406F42004F542D /* Model */,
+				A4E86CE725406F1B004F542D /* CloudAlunos */,
+				A4E86CFE25406F1C004F542D /* CloudAlunosTests */,
+				A4E86D0925406F1C004F542D /* CloudAlunosUITests */,
+				A4E86CE625406F1B004F542D /* Products */,
+				A4E86D1C25406F31004F542D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A4E86CE625406F1B004F542D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4E86CE525406F1B004F542D /* CloudAlunos.app */,
+				A4E86CFB25406F1C004F542D /* CloudAlunosTests.xctest */,
+				A4E86D0625406F1C004F542D /* CloudAlunosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4E86CE725406F1B004F542D /* CloudAlunos */ = {
+			isa = PBXGroup;
+			children = (
+				A4E86D1B25406F2B004F542D /* CloudAlunos.entitlements */,
+				A4E86CE825406F1B004F542D /* AppDelegate.swift */,
+				A4E86CEA25406F1B004F542D /* SceneDelegate.swift */,
+				A4E86CEE25406F1B004F542D /* Main.storyboard */,
+				A4E86CF125406F1C004F542D /* Assets.xcassets */,
+				A4E86CF325406F1C004F542D /* LaunchScreen.storyboard */,
+				A4E86CF625406F1C004F542D /* Info.plist */,
+			);
+			path = CloudAlunos;
+			sourceTree = "<group>";
+		};
+		A4E86CFE25406F1C004F542D /* CloudAlunosTests */ = {
+			isa = PBXGroup;
+			children = (
+				A4E86CFF25406F1C004F542D /* CloudAlunosTests.swift */,
+				A4E86D0125406F1C004F542D /* Info.plist */,
+			);
+			path = CloudAlunosTests;
+			sourceTree = "<group>";
+		};
+		A4E86D0925406F1C004F542D /* CloudAlunosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A4E86D0A25406F1C004F542D /* CloudAlunosUITests.swift */,
+				A4E86D0C25406F1C004F542D /* Info.plist */,
+			);
+			path = CloudAlunosUITests;
+			sourceTree = "<group>";
+		};
+		A4E86D1C25406F31004F542D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4E86D1D25406F31004F542D /* CloudKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A4E86D1F25406F42004F542D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A4E86D2025406F4E004F542D /* Aluno.swift */,
+				A4E86D2825406F64004F542D /* modelCloudKit.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A4E86D3025407E10004F542D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A4E86D3C25407FB6004F542D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A4E86CEC25406F1B004F542D /* ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4E86CE425406F1B004F542D /* CloudAlunos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4E86D0F25406F1C004F542D /* Build configuration list for PBXNativeTarget "CloudAlunos" */;
+			buildPhases = (
+				A4E86CE125406F1B004F542D /* Sources */,
+				A4E86CE225406F1B004F542D /* Frameworks */,
+				A4E86CE325406F1B004F542D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CloudAlunos;
+			productName = CloudAlunos;
+			productReference = A4E86CE525406F1B004F542D /* CloudAlunos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A4E86CFA25406F1C004F542D /* CloudAlunosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4E86D1225406F1C004F542D /* Build configuration list for PBXNativeTarget "CloudAlunosTests" */;
+			buildPhases = (
+				A4E86CF725406F1C004F542D /* Sources */,
+				A4E86CF825406F1C004F542D /* Frameworks */,
+				A4E86CF925406F1C004F542D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4E86CFD25406F1C004F542D /* PBXTargetDependency */,
+			);
+			name = CloudAlunosTests;
+			productName = CloudAlunosTests;
+			productReference = A4E86CFB25406F1C004F542D /* CloudAlunosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A4E86D0525406F1C004F542D /* CloudAlunosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4E86D1525406F1C004F542D /* Build configuration list for PBXNativeTarget "CloudAlunosUITests" */;
+			buildPhases = (
+				A4E86D0225406F1C004F542D /* Sources */,
+				A4E86D0325406F1C004F542D /* Frameworks */,
+				A4E86D0425406F1C004F542D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4E86D0825406F1C004F542D /* PBXTargetDependency */,
+			);
+			name = CloudAlunosUITests;
+			productName = CloudAlunosUITests;
+			productReference = A4E86D0625406F1C004F542D /* CloudAlunosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4E86CDD25406F1B004F542D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					A4E86CE425406F1B004F542D = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					A4E86CFA25406F1C004F542D = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = A4E86CE425406F1B004F542D;
+					};
+					A4E86D0525406F1C004F542D = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = A4E86CE425406F1B004F542D;
+					};
+				};
+			};
+			buildConfigurationList = A4E86CE025406F1B004F542D /* Build configuration list for PBXProject "CloudAlunos" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4E86CDC25406F1B004F542D;
+			productRefGroup = A4E86CE625406F1B004F542D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4E86CE425406F1B004F542D /* CloudAlunos */,
+				A4E86CFA25406F1C004F542D /* CloudAlunosTests */,
+				A4E86D0525406F1C004F542D /* CloudAlunosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4E86CE325406F1B004F542D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4E86CF525406F1C004F542D /* LaunchScreen.storyboard in Resources */,
+				A4E86CF225406F1C004F542D /* Assets.xcassets in Resources */,
+				A4E86CF025406F1B004F542D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4E86CF925406F1C004F542D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4E86D0425406F1C004F542D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4E86CE125406F1B004F542D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4E86CED25406F1B004F542D /* ViewController.swift in Sources */,
+				A4E86D2125406F4E004F542D /* Aluno.swift in Sources */,
+				A4E86CE925406F1B004F542D /* AppDelegate.swift in Sources */,
+				A4E86D2925406F64004F542D /* modelCloudKit.swift in Sources */,
+				A4E86CEB25406F1B004F542D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4E86CF725406F1C004F542D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4E86D0025406F1C004F542D /* CloudAlunosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4E86D0225406F1C004F542D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4E86D0B25406F1C004F542D /* CloudAlunosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A4E86CFD25406F1C004F542D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4E86CE425406F1B004F542D /* CloudAlunos */;
+			targetProxy = A4E86CFC25406F1C004F542D /* PBXContainerItemProxy */;
+		};
+		A4E86D0825406F1C004F542D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4E86CE425406F1B004F542D /* CloudAlunos */;
+			targetProxy = A4E86D0725406F1C004F542D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A4E86CEE25406F1B004F542D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4E86CEF25406F1B004F542D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A4E86CF325406F1C004F542D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4E86CF425406F1C004F542D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A4E86D0D25406F1C004F542D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A4E86D0E25406F1C004F542D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4E86D1025406F1C004F542D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CloudAlunos/CloudAlunos.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y8XB2TQUP3;
+				INFOPLIST_FILE = CloudAlunos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PauloUchoa.CloudAlunos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A4E86D1125406F1C004F542D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CloudAlunos/CloudAlunos.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y8XB2TQUP3;
+				INFOPLIST_FILE = CloudAlunos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PauloUchoa.CloudAlunos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A4E86D1325406F1C004F542D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y8XB2TQUP3;
+				INFOPLIST_FILE = CloudAlunosTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PauloUchoa.CloudAlunosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CloudAlunos.app/CloudAlunos";
+			};
+			name = Debug;
+		};
+		A4E86D1425406F1C004F542D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y8XB2TQUP3;
+				INFOPLIST_FILE = CloudAlunosTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PauloUchoa.CloudAlunosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CloudAlunos.app/CloudAlunos";
+			};
+			name = Release;
+		};
+		A4E86D1625406F1C004F542D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y8XB2TQUP3;
+				INFOPLIST_FILE = CloudAlunosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PauloUchoa.CloudAlunosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CloudAlunos;
+			};
+			name = Debug;
+		};
+		A4E86D1725406F1C004F542D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y8XB2TQUP3;
+				INFOPLIST_FILE = CloudAlunosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PauloUchoa.CloudAlunosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CloudAlunos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4E86CE025406F1B004F542D /* Build configuration list for PBXProject "CloudAlunos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4E86D0D25406F1C004F542D /* Debug */,
+				A4E86D0E25406F1C004F542D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4E86D0F25406F1C004F542D /* Build configuration list for PBXNativeTarget "CloudAlunos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4E86D1025406F1C004F542D /* Debug */,
+				A4E86D1125406F1C004F542D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4E86D1225406F1C004F542D /* Build configuration list for PBXNativeTarget "CloudAlunosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4E86D1325406F1C004F542D /* Debug */,
+				A4E86D1425406F1C004F542D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4E86D1525406F1C004F542D /* Build configuration list for PBXNativeTarget "CloudAlunosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4E86D1625406F1C004F542D /* Debug */,
+				A4E86D1725406F1C004F542D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4E86CDD25406F1B004F542D /* Project object */;
+}
